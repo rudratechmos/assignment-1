@@ -395,3 +395,66 @@ html, body{
     font-weight: 700;
     text-decoration-thickness: 2px;
 }
+
+/* support section styles */
+.support-container{
+    border: 1px solid black;
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+        url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    margin-top: 49px;
+}
+
+.support-content{
+    text-align: center;
+}
+
+.support-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+.support-content p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 16px 0px 24px 0px;
+}
+
+.support-form form{
+    display: flex;
+}
+
+.support-form textarea{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.submit-button{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 8px;
+    padding: 17px 20px;
+    margin-left: 16px;
+    cursor: pointer;
+}
