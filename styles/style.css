@@ -130,7 +130,6 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    margin-right: 98.83px;
 }
 
 .web-dev-part2-text h1{
@@ -268,6 +267,7 @@ html, body{
     opacity: 0.7;
     padding: 0px 144px;
     margin-top: 24px;
+    text-align: center;
 }
 
 .iframe-container{
