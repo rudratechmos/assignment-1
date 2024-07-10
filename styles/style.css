@@ -38,6 +38,7 @@ html, body{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 32px;
+    opacity: 0.7;
 }
 
 .header button{
@@ -260,4 +261,137 @@ html, body{
     width: 1076px;
     height: 550px;
     border-radius: 16px; 
+}
+
+/* target section styles */
+.target-container{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 151PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.target-part1{
+    width: 946px;
+    height: 113px;
+    text-align: center;
+}
+
+.target-part1 h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.target-part1 p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+
+.target-part2{
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.target-html{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    justify-content: center;
+}
+
+.target-html h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+
+.target-html p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 0px 24px 0px;
+    opacity: 0.7;
+}
+
+.target-html a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-thickness: 2px;
+}
+
+.target-css{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    justify-content: center;
+}
+
+.target-css h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+
+.target-css p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 0px 24px 0px;
+    opacity: 0.7;
+}
+
+.target-css a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-thickness: 2px;
+}
+
+.target-js{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    justify-content: center;
+}
+
+.target-js h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+
+.target-js p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 0px 24px 0px;
+    opacity: 0.7;
+}
+
+.target-js a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-thickness: 2px;
 }
