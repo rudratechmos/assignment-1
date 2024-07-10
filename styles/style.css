@@ -421,6 +421,159 @@ html, body{
     text-decoration-thickness: 2px;
 }
 
+/* target next styles */
+.target-next-container{
+    width: 1140px;
+    height: 866px;
+    margin: 0 auto;
+    margin-top: 111PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.target-next-part1{
+    width: 946px;
+    height: 113px;
+    text-align: center;
+}
+
+.target-next-part1 h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.target-next-part1 p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+
+.target-next-part2{
+    width: 1140px;
+    height: 705px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.react-container{
+    width: 1140px;
+    height: 219px;
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+
+.react-text{
+    margin-left: 24px;
+}
+
+.react-text h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.react-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 0px 24px;
+    opacity: 0.7;
+}
+
+.react-text a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-thickness: 2px;
+}
+
+.nodejs-container{
+    width: 1140px;
+    height: 219px;
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+
+.nodejs-text{
+    margin-left: 24px;
+}
+
+.nodejs-text h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.nodejs-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 0px 24px;
+    opacity: 0.7;
+}
+
+.nodejs-text a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-thickness: 2px;
+}
+
+.mongodb-container{
+    width: 1140px;
+    height: 219px;
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+
+.mongodb-text{
+    margin-left: 24px;
+}
+
+.mongodb-text h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.mongodb-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 0px 24px;
+    opacity: 0.7;
+}
+
+.mongodb-text a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-thickness: 2px;
+}
+
 /* support section styles */
 .support-container{
     border: 1px solid black;
