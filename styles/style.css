@@ -13,6 +13,31 @@ html, body{
 }
 
 /* header styles */
+.nav-bar{
+    /* height: 131px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 150px;
+}
+
+.nav-bar h1{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.nav-bar button{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+    background-color: white;
+    border-radius: 8px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 .header{
     height: 652px;
     margin: 0 auto;
